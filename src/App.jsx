@@ -7,6 +7,8 @@ import About from './pages/AboutPage';
 import Home from './pages/HomePage';
 import WisataPage from './pages/WisataPage'
 import WisataDetail from './pages/WisataDetail'
+import 'leaflet/dist/leaflet.css';
+
 
 function App() {
 
