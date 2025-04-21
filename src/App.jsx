@@ -8,6 +8,8 @@ import Home from './pages/HomePage';
 import WisataPage from './pages/WisataPage'
 import WisataDetail from './pages/WisataDetail'
 import 'leaflet/dist/leaflet.css';
+import BudayaPage from './pages/BudayaPage'
+import BudayaDetail from './pages/BudayaDetail'
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/wisata' element={<WisataPage/>}/>
+      <Route path='/budaya' element={<BudayaPage/>}/>
+      <Route path='/budaya/:id' element={<BudayaDetail/>}/>
       <Route path='/wisata/:id' element={<WisataDetail/>}/>
      </Routes>
     </>
